@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+h5 {
+  color: #F92C85;
+}
+
+.icons {
+  height: 40px;
+  width: 40px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.group {
+  height: 200px;
+  border-radius: 1em;
+}
+
+#rainforest {
+  height: 800px;
+  border-radius: 1em;
+}
+
+#random {
+  height: 800px;
+  border-radius: 1em;
+}
+
+#flag {
+  height: 230px;
+  border-radius: 1em;
+}
+
+h2 {
+  color: #5EBEC4;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: #5EBEC4;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: #F92C85;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #FDF5DF;
+}
+
+#logo {
+  height: 150px;
+  margin-bottom: -90px;
+  margin-top: -50px;
+  margin-left: -50px;
+  float: left;
+}
+
+/* Header/Blog Title */
+.header {
+  
+  padding: 30px;
+  text-align: center;
+  background: #FDF5DF;
+}
+
+.header h1 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  color: #5EBEC4;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #fefbf2;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #F92C85;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #aba9a2;
+  color: #5e032a;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #FDF5DF;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  border-radius: 1em;
+  background-color: #fefbf2;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #fefbf2;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+  
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="images/Logo.png" id="logo">
+  <h1>Myself</h1>
+  <p>A Website To Know Some Facts About Me.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Childhood</h2>
+      <h5>Last Updated, Oct 7th, 2022</h5>
+      <img src="images/favelas.jpg" id="random">
+      <p>Growing up nothing really interesting happened in my childhood, I was just your avarage Brazilian child who wwants to go out and play soccer everyday.</p>
+      <p>Some hobbies that I had as a kid was hardly any since I didnt really do anything other than school and games so I kind of just stuck to the basics that a kid has growing. However one thing that I was heavily into and still am even today was the world of racing, I dont know how this passion emerged but what I do know is that I was crazy for anything racing related</p>
+    </div>
+    <div class="card">
+      <h2>Teenage Years</h2>
+      <h5>Last Updated, Oct 7th, 2022</h5>
+      <img src="images/rain forest.jpg" id="rainforest">
+      <p>As a teenager of course I grew to find more things interesting and found many more hobbies which I wasnt interested in before.</p>
+      <p>The hobbie of racing continued but know I was also into to Video Editing, Programming, Art, Visual Effects, a much more which I was not in the past, a reason for why all of my hobbies are all computer related might have been due to my dads influence growing up with him always working on WAV's which required some software knowledge.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Brazil</h2>
+      <img src="images/banderira.jpg" id="flag">
+      <p>Brazil is a South American country with an extremely rich cultufre with diverse people and foods, although recently Brazil economically has underperformed and has been in many corruption scandles which set back that country.</p>
+    </div>
+    <div class="card">
+      <h3>Images of Brazil</h3>
+      <div><img src="images/porto.jpg" class="group"></div>
+      <div><img src="images/landscape.jpg" class="group"></div>
+      <div><img src="images/christo.jpg" class="group"></div>
+    </div>
+    <div class="card">
+      <h3>Visiting Brazil</h3>
+      <p>If you hope to visit Brazil then I would reccomend to have patience, currently Brazil is facing many struggles and with recent protests due to the recent elections, it is best to wait for things to calm down first and then visit Brazil then</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Links</h2>
+  <a href=https://mobile.twitter.com/govbrazil><img src="../Chapter7/svg/icons/twitter.svg" class="icons"></a>
+  <a href=https://www.facebook.com/govbrazil><img src="../Chapter7/svg/icons/facebook.svg" class="icons"></a>
+  <a href=https://www.instagram.com/visitbrasil/?hl=en><img src="../Chapter7/svg/icons/instagram.svg" class="icons"></a>
+</div>
+
+</body>
+</html>
